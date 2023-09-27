@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-const questions = require('./questions');
+const questions = require('./public/quiz');
 
 let currentQuestionIndex = 0;
 let score = 0;

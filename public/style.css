@@ -1,0 +1,97 @@
+/* Allgemeine Stile für den gesamten Inhalt */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stile für die Quiz-Frage und Antwortmöglichkeiten */
+  .question-container {
+    display: none;
+  }
+  
+  #question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #quiz-form {
+    list-style: none;
+    padding: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Feedback-Stile für richtige und falsche Antworten */
+  #feedback {
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  #feedback.correct {
+    color: green;
+  }
+  
+  #feedback.wrong {
+    color: red;
+  }
+  
+  /* Stile für den Punktestand */
+  #score {
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+  }
+  
+  /* Stile für die Schaltfläche "Nächste Frage" */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #555;
+  }
